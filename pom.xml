@@ -3,26 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example.grails</groupId>
-    <artifactId>Grails</artifactId>
+
+    <groupId>com.codenvy.examples</groupId>
+    <artifactId>web-grails-java-simple</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>grails-app</packaging>
-    <version>0.1</version>
-    <name>Grails</name>
-    <description>Grails</description>
+    <name>Codenvy Grails Example</name>
 
     <properties>
         <grails.version>2.1.2</grails.version>
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.grails</groupId>
             <artifactId>grails-dependencies</artifactId>
             <version>${grails.version}</version>
             <type>pom</type>
         </dependency>
-
 
         <dependency>
             <groupId>org.grails</groupId>
@@ -45,11 +43,10 @@
             <scope>provided</scope>
             <type>jar</type>
         </dependency>
-
     </dependencies>
 
     <build>
-        <pluginManagement />
+        <pluginManagement/>
 
         <plugins>
             <!-- Disables the Maven surefire plugin for Grails applications, as we have our own test runner -->
