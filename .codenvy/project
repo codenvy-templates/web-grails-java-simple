@@ -1,1 +1,1 @@
-{"type":"maven","properties":[{"name":"language.version","value":["1.6"]},{"name":"builder.name","value":["maven"]}, {"name":"runner.name","value":["JavaWeb"]}]}
+{"type":"maven","properties":[{"name":"builder.name","value":["maven"]}, {"name":"runner.name","value":["JavaWeb"]}]}
