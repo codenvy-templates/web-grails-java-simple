@@ -1,1 +1,1 @@
-{"type":"maven","properties":[{"name":"builder.name","value":["maven"]}, {"name":"runner.name","value":["JavaWeb"]}]}
+{"type":"maven","properties":[{"name":"builder.name","value":["maven"]}, {"name":"runner.name","value":["JavaWeb"]}, {"name":"runner.JavaWeb.memsize", "value":["1024"]}]}
