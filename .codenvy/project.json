@@ -1,1 +1,1 @@
-{"type":"maven","properties":[{"name":"builder.name","value":["maven"]}, {"name":"runner.name","value":["java-webapp-default"]}, {"name":"runner.JavaWeb.memsize", "value":["1024"]}]}
+{"attributes":{"runner.JavaWeb.memsize":["1024"]},"projectTypeId":"maven","builder":"maven","runner":"java-webapp-default","defaultBuilderEnvironment":null,"defaultRunnerEnvironment":null,"builderEnvironmentConfigurations":{},"runnerEnvironmentConfigurations":{},"description":null}
