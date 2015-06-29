@@ -2,11 +2,12 @@ package helloworld
 
 class HelloworldController {
 
-    def index() { 
+    def index() {
 		render(view: 'hello')
 	}
-	def update(String nameField){
-		def message='hello ' 
-		render(view: 'hello',  model:[message: "Hello " + nameField + "!"])
+
+	def update(String nameField) {
+		def message='Hello '
+		render(view: 'hello',  model:[message: message + nameField + "!"])
 	}
 }
